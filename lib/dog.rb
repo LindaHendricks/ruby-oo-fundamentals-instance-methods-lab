@@ -1,4 +1,5 @@
 
+require 'pry'
 
 class Dog
     def initialize
@@ -11,7 +12,7 @@ class Dog
     end 
 
     def sit 
-        puts "The Dog is sitting"
+        puts "the dog is sitting"
     end 
    
 end 
@@ -21,6 +22,8 @@ linda = Dog.new
 puts linda.bark
 puts linda.sit
 
+binding.pry
+0
 
 
 

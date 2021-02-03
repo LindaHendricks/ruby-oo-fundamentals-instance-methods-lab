@@ -18,4 +18,3 @@ lili = Person.new
 
 lili.talk
 lili.walk
-
